@@ -1,0 +1,250 @@
+body, div, button, ul, ol, li, a, p, section, footer, header {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+ width: 1250px;
+ margin: 0 auto;
+}
+
+.header {
+	background-color: #665c5c;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name {
+	text-transform: uppercase;
+	 font-family: 'Open Sans';
+	 font-size: 30px;
+ 	font-weight: 700;
+ 	color: #fff;
+}
+
+.menulist {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 13%;
+}
+
+.optionsettings {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+	
+}
+
+.optionsettings:hover {
+	border-bottom: 1px solid #fff;
+	box-sizing: border-box;
+}
+
+.contactnum {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.num {
+	font-family: 'Open Sans';
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.banner {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.bannertxt {
+	font-family: 46px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+.bannertxt span {
+	color: #ff8a00;
+}
+
+.section {
+ padding-bottom: 50px;
+}
+
+.mainpanel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.productlist {
+
+}
+
+.vars {
+
+}
+
+.varopt {
+	list-style-type: none;
+	padding: 7px;
+	background-color: #ff8a00;
+	margin-bottom: 5px;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.varopt:hover {
+	transition: 1s;
+	background-color: #f2a100;
+}
+
+.optclr {
+	color: #fff;
+}
+
+.productinf {
+	width: 70%;
+}
+
+.productname {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 46px;
+	color: #000;
+	margin: 0;
+}
+
+.productname span {
+	color: #1f2278;
+}
+
+.infsection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.smallnamer {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 23px;
+	color: #000;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.smallnamer span {
+	color: #1f2278;
+}
+
+.txt {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.txtinf {
+	font-family:'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	color: #000;
+}
+
+.txtinf ul {
+	margin-top: 5px;
+}
+
+.img {
+	width: 300px;
+	height: 300px;
+}
+
+.footer {
+
+}
+@media	(max-width: 1300px) {
+	.container {
+		width: 90%;
+	}
+
+	.productinf {
+		width: 60%;
+	}
+}
+
+@media	(max-width: 1200px) {
+	.container {
+		width: 90%;
+	}
+
+	.menu {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menulist {
+		width: 35%;
+		margin-top: 15px;
+		margin-bottom: 15px;		
+	}
+
+	.productinf {
+		width: 60%;
+	}
+}
+
+@media	(max-width: 1100px) {
+	.txt {
+		flex-direction: column;
+	}
+
+	.mainpanel {
+		flex-direction: column;
+	}
+
+	.varopt {
+		text-align: center;
+	}
+
+	.productinf {
+		width: 90%;
+	}
+
+	.img {
+		margin: 0 auto;
+	}
+
+
+}
+
+@media	(max-width: 768px) {
+	.infsection {
+		flex-direction: column;
+	}
+}
+
+@media	(max-width: 576px) {}
+

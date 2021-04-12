@@ -1,0 +1,320 @@
+body, div, button, ul, ol, li, a, p, section, footer, header {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*li {
+	list-style-type: none;
+}*/
+
+.container {
+ width: 1250px;
+ margin: 0 auto;
+}
+
+.header {
+	padding-top: 40px;
+	padding-bottom: 75px;
+	background-color: #665c5c;
+}
+
+.verybig {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logoname {
+
+}
+.varopt {
+	list-style-type: none;
+	padding: 7px;
+	background-color: #ff8a00;
+	margin-bottom: 5px;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.varopt:hover {
+	transition: 1s;
+	background-color: #f2a100;
+}
+
+.optclr {
+	color: #fff;
+}
+
+
+.name {
+	text-transform: uppercase;
+	 font-family: 'Open Sans';
+	 font-size: 30px;
+ 	font-weight: 700;
+ 	color: #fff;
+}
+
+.menulist {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 21%;
+}
+
+.option {
+
+}
+
+.optionsettings {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+	
+}
+
+.optionsettings:hover {
+	border-bottom: 1px solid #fff;
+	box-sizing: border-box;
+}
+
+.contactnum {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.num {
+	font-family: 'Open Sans';
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.banner {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.bannertxt {
+	font-family: 46px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+.bannertxt span {
+	color: #ff8a00;
+}
+
+.one {
+	padding-bottom: 50px;
+}
+
+.information {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.right {
+	/*width: 39%;*/
+}
+
+.bigblock {
+	width: 70%;
+}
+
+.bigstate {
+	font-family: 'Open Sans';
+	color: #000;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.bigstatetwo {
+	font-family: 'Open Sans';
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.bigstatetwo span {
+	color: #ff8a00;
+}
+
+.bigstate span {
+	color: #1f2278;
+}
+
+.smallstate span {
+	color: #1f2278;
+}
+
+.smallstate {
+	font-family: 'Open Sans';
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.statetxt {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	color: #000;
+	font-weight: 300;
+	width: 93%;
+	
+}
+
+.two {
+	background-color: #665c5c;
+	padding-bottom: 40px;
+}
+
+.three {
+	padding-top: 5px;
+	padding-bottom: 45px;
+}
+
+.img {
+	height: 300px;
+	width: 300px;
+}
+
+.four {
+	background-color: #665c5c;
+	padding-bottom: 40px;
+}
+
+.garant {
+	font-family: 'Open Sans';
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.garant span {
+	color: #ff8a00;
+}
+
+.footer {
+ padding-bottom: 50px;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.contactinf {
+	font-family: 'Open Sans';
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.contactinf span {
+	color: #ff8a00;
+}
+
+
+@media	(max-width: 1200px) {
+	.container {
+		width: 90%;
+	}
+
+	.menu {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menulist {
+		width: 35%;
+		margin-top: 15px;
+		margin-bottom: 15px;		
+	}
+
+	/*.img {
+		display: none;
+	}*/
+}
+
+@media	(max-width: 1100px) {
+
+	.img {
+		display: none;
+	}
+
+	.left {
+		width: 75%;
+	}
+
+}
+
+
+@media	(max-width: 1100px) {}
+
+@media	(max-width: 992px) {
+	.right {
+		display: none;
+	}
+	.left {
+		margin: 0 auto;
+	}
+}
+@media	(max-width: 768px) {
+	.menulist {
+		width: 45%;	
+	}
+
+	.bigblock {
+		width: 99%;
+	}
+
+	.smallstate {
+		text-align: center;
+	}
+
+	.varopt {
+		text-align: center;
+	}
+
+	.verybig {
+		flex-direction: column;
+	}
+}
+@media	(max-width: 576px) {
+	.menulist {
+		width: 70%;	
+	}
+}
